@@ -1,11 +1,13 @@
 <template>
-<Contador></Contador>
+    <Incremento></Incremento>
+    <ListaDeTareas></ListaDeTareas>
 </template>
 
 <script setup>
-import Contador from './components/contador.vue';
+    import Incremento from './components/Incremento.vue';
+    import ListaDeTareas from './components/ListaDeTareas.vue';
 </script>
 
 <style scoped>
-  
+
 </style>
