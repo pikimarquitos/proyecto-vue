@@ -1,10 +1,10 @@
-<script setup>
-
-</script>
-
 <template>
-  <h1>Hola mundo</h1>
+<Contador></Contador>
 </template>
+
+<script setup>
+import Contador from './components/contador.vue';
+</script>
 
 <style scoped>
   
