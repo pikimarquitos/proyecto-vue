@@ -1,13 +1,9 @@
 <template>
-    <Incremento></Incremento>
-    <ListaDeTareas></ListaDeTareas>
+    <MainView></MainView>
 </template>
-
 <script setup>
-    import Incremento from './components/Incremento.vue';
-    import ListaDeTareas from './components/ListaDeTareas.vue';
+    import MainView from './views/MainView.vue';
 </script>
-
 <style scoped>
 
 </style>
